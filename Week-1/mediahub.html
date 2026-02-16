@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dogs Media Hub</title>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to the Dogs Media Hub</h1>
+            <p>Explore a variety of media content about dogs, including  videos, and audio clips that celebrate our furry friends.</p>
+            <nav>
+                <ul>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="mediahub.html">Media Hub</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section>
+                <h2>Local Dog Audio Sample</h2>
+                <audio controls preload="metadata">
+                    <source src="assets/media/dog_barking.wav" type="audio/wav">
+                    <p>Your browser doesn't support HTML5 audio.</p>
+                </audio>
+                <p>Listen to a cute dog bark compilation!</p>
+            </section>
+
+            <section>
+                <h2>Native Video Player</h2>
+                <video width="400" controls poster="assets/images/dog_black.jpg" muted playsinline>
+                    <source src="assets/media/dog_husky.mp4" type="video/mp4">
+                    <p>Your browser doesn't support HTML5 video.</p>
+                </video>
+                <p>Watch this playful puppy in action!</p>
+            </section>
+
+            <section>
+                <h2>Dog Video from YouTube</h2>
+                <iframe 
+                    width="560" height="315" 
+                    src="https://www.youtube.com/embed/ngMm87S3zdQ" 
+                    loading="lazy" 
+                    allowfullscreen>
+                </iframe>
+                <p>External dog video funny and entertaining!</p>
+            </section>
+
+
+
+            
+        </main>
+    </body>
+
+</html>
